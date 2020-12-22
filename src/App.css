@@ -1,0 +1,104 @@
+:root {
+  --Black : #555;
+  --Spearmint: #94C973;
+  --Seafoam: #2F5233;
+  --Kelly: #B1D8B7;
+  --Lime: #76B947;
+  --Grey: #ccc;
+  --LightGrey: #ebebeb;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.4;
+}
+
+h1 {
+  text-align: center;
+  color: var(--Lime);
+}
+
+body {
+  background: var(--Lime);
+}
+
+.Main {
+  padding: 10px 2rem;
+  margin: 10px auto;
+  width: 90%;
+  max-width: 1200px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.Table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.Table td, .Table th {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.EditButton {
+  max-width: 1.5rem;
+  height: auto;
+  outline: none;
+  padding: 2px;
+  margin: 0px 4px;
+  border: none;
+}
+
+.AddButton {
+  border: 2px var(--Lime) solid;
+  background: #fff;
+  color: var(--Lime);
+  font-weight: bold;
+  padding: 7px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  float: right;
+ }
+
+
+.FormFlexContainer {
+  display: flex;
+ }
+
+.AddFormText {
+  padding-right: 5px;
+ }
+
+input, select {
+  border: 2px var(--Lime) solid;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 2px;
+ }
+
+.FormDiv {
+  display: inline-block;
+  padding-left: 5px;
+ }
+
+.FormErrorText {
+  color: red;
+  line-height: 1rem;
+  padding: 5px;
+ }
+
+.SortButton {
+  max-width: 12px;
+  height: auto;
+  outline: none;
+  border: none;
+  float: right;
+  margin-top: 4px;
+}
